@@ -1,4 +1,4 @@
-Feature: Product Detail
+Feature: Add to Cart
 
   @DetailProductSauceDemo @Positive
   Scenario: user success view product detail
