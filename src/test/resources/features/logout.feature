@@ -1,7 +1,8 @@
 Feature: Logout
 
-  @DetailProductSauceDemo @Positive
-  Scenario: user success view product detail
-    Given user success access Product Page
-    When user click on a product name
-    Then User is on Product Detail Page
+  @LogoutSauceDemo @Positive
+  Scenario: user success logout
+    Given user is already login
+    When user click on hamburger button
+    And user click on logout
+    Then User successfully logout
