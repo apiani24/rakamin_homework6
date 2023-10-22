@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "stefDef",
         plugin = {"html:target/HTML_report.html"},
-        tags = "@TestRakamin"
+        tags = "@LoginSauceDemo"
 )
 
-public class testRunner {
+public class loginRunner {
 }
