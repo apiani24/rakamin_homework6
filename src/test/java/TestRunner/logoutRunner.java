@@ -6,10 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features/addToCart.feature",
+        features = "src/test/resources/features/logout.feature",
         glue = "stefDef",
         plugin = {"html:target/HTML_report.html"},
-        tags = "@AddToCartProduct"
+        tags = "@LogoutSauceDemo"
 )
-public class addtoCartProductRunner {
+public class logoutRunner {
 }
