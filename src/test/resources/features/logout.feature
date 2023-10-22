@@ -1,4 +1,4 @@
-Feature: Product Detail
+Feature: Logout
 
   @DetailProductSauceDemo @Positive
   Scenario: user success view product detail
