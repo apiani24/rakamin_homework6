@@ -6,10 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features/productDetail.feature",
+        features = "src/test/resources/features/addToCart.feature",
         glue = "stefDef",
         plugin = {"html:target/HTML_report.html"},
-        tags = "@DetailProductSauceDemo"
+        tags = "@AddToCartProduct"
 )
-public class detailProductRunner {
+public class addtoCartProductRunner {
 }
